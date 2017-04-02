@@ -1,16 +1,17 @@
 # CodingExercise
 
-This project was generated as a technical assignment and is meant as a landing page for offers on hotel bookings. Assumptions made include usage of links to find more details. Known errors include unresponive elements, where page design was signified as unimportant.  
+This project was generated as a technical assignment and is meant as a plateform for offers on hotel bookings. Assumptions made include usage of main page to lure viewers to click for more details. Known errors include unresponive elements, where page design was signified as unimportant.  
 
 ## Prerequisites
 
 Node JS
 
-## Installation
+## Instructions
 
-
-npm install
-ng serve / node server.js
+* Fork repository and clone locally
+* In your terminal, run "npm install" 
+* Run command "ng build" 
+* Followed by the command "node server.js"
 
 
 
@@ -21,4 +22,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Links
 
-
+https://coding-exercise.herokuapp.com/

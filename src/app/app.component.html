@@ -41,7 +41,7 @@
                             <img src={{offer.hotelInfo.hotelImageUrl}} onError="this.src='../assets/hotel-icon-10.png'; this.className= 'defualtimg' ">
                         </a>
                         <h2 *ngIf= "offer.hotelInfo.promotionDescription"><span>{{ offer.hotelInfo.promotionDescription }}</span></h2>
-                        
+
                         <!-- Offer details --> 
                         <div class="caption">
                             <h4 class="pull-right">$ {{ offer.hotelPricingInfo.totalPriceValue }}</h4>
@@ -49,7 +49,7 @@
 
                             </h4>
                             <a href= {{offer.hotelUrls.hotelSearchResultUrl}}> 
-                                <p> {{ offer.destination.city }} </p>
+                            <p> {{ offer.destination.city }} </p>
                             </a>
                             <p> Valid from {{offer.hotelInfo.travelStartDate}} thru {{offer.hotelInfo.travelEndDate}} </p>
                         </div>

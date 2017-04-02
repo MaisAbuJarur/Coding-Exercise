@@ -12,8 +12,8 @@ export class AppComponent {
 	Math: any;
 
 
-	constructor(private Get: OffersService) {
-		this.Get.getAllOffers().subscribe(data=>{
+	constructor(private Hotels: OffersService) {
+		this.Hotels.getAllOffers().subscribe(data=>{
 			this.offers = data.offers.Hotel;
 
 			for (var i = 0; i < this.offers.length; i++) {
@@ -26,6 +26,7 @@ export class AppComponent {
 
 			}
 		});
+		//I used Math.round for a cleaner looking star rating
 		this.Math = Math;
 
 	}

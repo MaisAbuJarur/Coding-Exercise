@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname,'dist')));
 
 
 //handle requests for data from api
-var url = "https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel"
+var url = " https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel"
 
 app.get('/api/offers',function(req,res) {
   request(url, function(error, response, body) {
